@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    border: 10px solid rgba(0, 0, 0, 0.8);
+    min-height: 500px;
+    min-width: 500px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+
+}
+
+.square {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    min-width: 100px;
+    min-height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mouse-hover {
+    background-color: black;
+}
